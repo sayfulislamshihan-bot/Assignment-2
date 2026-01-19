@@ -85,7 +85,7 @@ a{
     cursor: pointer;
 }
 
-/* Banner */
+/* Banner creation */
 
 .banner{
     max-width: 1600px;
@@ -141,6 +141,7 @@ a{
 .btn-small{
     background-color: #00FF88;
     border: none;
+    max-width: 75px;
     padding: 8px 16px;
     border-radius: 1000px;
     font-size: 1.2rem;
@@ -148,7 +149,7 @@ a{
     color: #1A0B2E;
     cursor: pointer;
     position: absolute;
-    top: 20px;
+    top: 1.2rem;
     right: 1%;
 }
 .text h1{
@@ -206,4 +207,53 @@ a{
     color: #00FF88;
     cursor: pointer;
     padding: 12.5px 20px;
+}
+
+
+/* About */
+.about{
+    max-width: 100rem;
+    margin: 0 auto;
+    padding: 3rem 13rem 8rem 13rem;
+    background-color: #1A0B2E;
+    text-align: center;
+}
+.ahead{
+    max-width: 75rem;
+    margin-bottom: 5rem;
+}
+.ahead h1{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+}
+.ahead p{
+    font-size: 1rem;
+    font-weight:200;
+    color: #ffffffc9;
+    margin-bottom: 1rem;
+}
+
+.about-card{
+    max-width: 75rem;
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5rem;
+}
+.card h1{
+    font-size: 3rem;
+    color: #00FF88;
+    margin-bottom: 1rem;
+    font-weight:bolder;
+}
+.card p{
+    font-size: 1rem;
+    color:#ffffffc9;
+    margin-bottom: 1rem;
+}
+
+.about-container hr{
+   opacity: 0.1;
 }
