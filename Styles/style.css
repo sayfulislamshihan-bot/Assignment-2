@@ -22,7 +22,8 @@
 }
 
 .nav-container h1{
-    max-width: 219px;
+    max-width: 13.7rem;
+
 }
 li{
     list-style: none;
@@ -500,7 +501,7 @@ a{
     justify-content: center;
     align-items: center;
     gap: 24px;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 
 .host-info h3{
@@ -517,10 +518,65 @@ a{
     margin-bottom: 1rem;
 }
 
+/* footer */
+.footer{
+    max-width: 1600px;
+    margin: 0 auto;
+    background: url(../assets/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer-container{
+    max-width: 1360px;
+    margin: 0 auto; 
+    padding: 120px;
+    text-align: center;
+}
 
 
+#tech2{
+    color: #FFFFFF;
+    font-size: 50px; 
+}
 
+#wave2{
+  background: linear-gradient(
+  to top right,
+  rgba(247, 233, 63, 1),
+  rgba(251, 9, 180, 1),
+  rgba(145, 0, 248, 1));
+  background-clip: text;
+  color: transparent;
+  font-size: 50px; 
+}
 
+.alter{
+    margin-bottom: 32px;
+}
 
+.icon-footer{
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
 
+.icondiv{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    max-width: 544px;
+    margin: 0 auto;
+}
 
+.icondiv h4{
+    font-size: 1rem;
+    font-weight:400;
+    color: #ffffff9f;
+    margin-bottom: 2rem;
+}
+
+.footer-container p{
+    font-size: 1rem;
+    color: #fafafaa0;
+
+}
