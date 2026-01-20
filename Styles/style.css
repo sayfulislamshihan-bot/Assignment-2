@@ -1,21 +1,19 @@
+/* shared elements */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 .font-inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
 
 /* navbar creation*/
-
 .nav{
     max-width: 1600px;
     margin: 0 auto;
     background-color: #1A0B2E;
-
 }
 .nav-container{
     max-width: 846px;
@@ -26,8 +24,6 @@
     align-items: center;
     border-bottom: 1px solid rgba(65, 37, 103, 1);
 }
-
-
 .nav-container{
     max-width: 1600px;
     margin: 0 auto;
@@ -35,13 +31,10 @@
     padding: 16px 200px;
     display: flex;
     justify-content: space-between;
-   
 }
-
 .nav-container h1{
     max-width: 13.7rem;
     margin: 0 auto;
-
 }
 li{
     list-style: none;
@@ -82,7 +75,6 @@ a{
     font-weight: 400;
     color: #FFFFFF;
 }
-
 .btn {
     display: flex;
     justify-content: center;
@@ -102,7 +94,7 @@ a{
     cursor: pointer;
 }
 .btn:hover {
-  transform: translateY(-3px);
+  transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(140, 232, 20, 0.514);
   background: linear-gradient(
     to bottom left,
@@ -112,7 +104,6 @@ a{
 }
 
 /* Banner creation */
-
 .banner{
     max-width: 1600px;
     margin: 0 auto;
@@ -125,12 +116,10 @@ a{
     justify-content: center;
     align-items: center;
 }
-
 .center{
     max-width: 550px;
     margin: 101px 525px;
     text-align: center;
-
 }
 .image{
     display: flex;
@@ -140,7 +129,6 @@ a{
 .text{   
      margin-top: 40px;
 }
-
 .center-img {
   position: relative;
   width: 350px;
@@ -189,7 +177,6 @@ a{
     margin-bottom: 24px;
 }
 
-
 .btn-group {
     display: flex;
     justify-content: center;
@@ -218,7 +205,7 @@ a{
 
 }
 .button1:hover {
-  transform: translateY(-3px);
+  transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(34, 236, 192, 0.493);
   background: linear-gradient(
     to bottom left,
@@ -244,16 +231,49 @@ a{
 }
 
 .button2:hover {
-  transform: translateY(-3px);
+  transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(245, 44, 91, 0.534);
   background: linear-gradient(
     to bottom left,
-    rgb(216, 103, 11),
-    rgb(215, 28, 175),
-    rgb(18, 173, 230));
+    rgb(212, 87, 8),
+    rgb(29, 7, 228),
+    rgb(16, 148, 196));
 }
 
-/* About */
+
+.side-ball {
+  position: fixed;
+  right: 50px;      
+  top: 40%;
+  width: 80px;
+  height: 80px;
+  background: #d85808;
+  padding-top: 30px;
+  padding-left: 17px;
+  border-radius: 50%;
+  animation: float 2s ease-in-out infinite;
+}
+
+.side-ball h4{
+    color: #05b2e7;
+    font-size: large;
+}
+
+/* Animation */
+@keyframes float {
+  0% {
+    transform: translateY(-100px);
+  }
+  50% {
+    transform: translateY(100px);
+  }
+  100% {
+    transform: translateY(-100px);
+  }
+}
+
+
+/* About section */
 .about{
     max-width: 100rem;
     margin: 0 auto;
@@ -300,7 +320,7 @@ a{
    opacity: 0.1;
 }
 
-/* Why choose */
+/* Why choose section */
 
 .why{
     max-width: 100rem;
@@ -455,9 +475,7 @@ a{
     color: #ffffff9d;
 }
 
-
-
-/* feature */
+/* feature section */
 
 .feature-and-host{
     max-width: 100rem;
@@ -482,7 +500,8 @@ a{
 }
 
 .video1{
-    max-width: 380px;
+    max-width: 370px;
+    margin: 0 auto;
     background-color: #351165;
     border-radius: 10%;
 }
@@ -512,6 +531,8 @@ a{
 }
 
 .video-container{
+    max-width: 1200px;
+    margin: 0 auto;
     display: flex;
     gap: 1.8rem;
     justify-content: center;
@@ -529,7 +550,7 @@ a{
 }
 
 
-/* host */
+/* Host section*/
 .host-part h1{
     text-align: center;
     font-size: 3rem;
@@ -565,7 +586,7 @@ a{
     margin-bottom: 1rem;
 }
 
-/* footer */
+/* Footer section */
 .footer{
     max-width: 1600px;
     margin: 0 auto;
@@ -573,6 +594,7 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-color: #1A0B2E;
 }
 .footer-container{
     max-width: 1360px;
@@ -580,7 +602,6 @@ a{
     padding: 120px;
     text-align: center;
 }
-
 
 #tech2{
     color: #FFFFFF;
@@ -601,7 +622,8 @@ a{
 .alter{
     max-width: 25.6rem;
     margin: 0 auto;
-    margin-bottom: 32px;
+    padding-top: 20px;
+    padding-bottom:30px;
 }
 
 .icon-footer{
@@ -610,13 +632,6 @@ a{
     justify-content: center;
 }
 
-/* .icondiv{
-    display: flex;
-    
-    gap: 40px;
-    max-width: 544px;
-    margin: 0 auto;
-} */
 .icondiv{
     max-width: 34rem;
     margin: 0 auto;
@@ -636,8 +651,13 @@ a{
 .footer-container p{
     font-size: 1rem;
     color: #fafafaa0;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
+.footer-container hr{
+    opacity: 20%;
+}
 
 /* Media Query */
 @media screen and (min-width:576px){
@@ -646,37 +666,37 @@ a{
     }
 }
 @media screen and (max-width:576px){
-    .options{
-        display: none;
-    }
-    .btn{
-        display:none;
-    }
-
-    .nav-container{
-            padding:0;
-            justify-content:space-around;
-    }
-    .about{
-        padding: 50px 80px;
-    }
-
-    .ahead h1{
-    font-size: 2rem;
+.options{
+    display: none;
 }
-    .about-card{
-        gap: 1rem;
-        grid-template-columns: repeat(2,1fr);
-    }
-    .card h1{
-    font-size: 2rem;
-    color: #00FF88;
-    margin-bottom: 1rem;
+.btn{
+    display:none;
+}
+
+.nav-container{
+        padding:0;
+        justify-content:space-around;
+}
+.about{
+    padding: 50px 80px;
+}
+
+.ahead h1{
+font-size: 2rem;
+}
+.about-card{
+    gap: 1rem;
+    grid-template-columns: repeat(2,1fr);
+}
+.card h1{
+font-size: 2rem;
+color: #00FF88;
+margin-bottom: 1rem;
 }
 .center {
-    max-width: 550px;
-    margin: 50px 0;
-    text-align: center;
+max-width: 550px;
+margin: 50px 0;
+text-align: center;
 }
 
 .why {
@@ -739,13 +759,6 @@ a{
     text-align: center;
 }
 
-/* .icondiv {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    max-width: 544px;
-    margin: 0 auto;
-} */
 
 #tech2 {
     font-size: 2rem;
@@ -765,10 +778,6 @@ a{
 .wcard5 {
     margin-left:0;
 }
-/* .icondiv{
-    display: grid;
-    grid-template-columns: repeat(2,.1px);
-} */
 
 
 .center-img {
@@ -826,6 +835,13 @@ a{
     font-size: 2rem;
     font-weight: bolder;
     color: #FFFFFF;
+}
+
+.video1 {
+    max-width: 380px;
+    margin: 0 auto;
+    background-color: #351165;
+    border-radius: 10%;
 }
 
 }
